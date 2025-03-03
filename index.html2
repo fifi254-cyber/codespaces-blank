@@ -1,14 +1,34 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
-    <head>  
+    <head>
         <body>
-            <h2>Registration form</h2>
             <form>
-                <label for ="fullname">fullname</label>
-                <input type="text" id="fullname"name="fullname"required></br>
+                <label for="fullname">fullname</label>
+                <input type="text"id="fullname"name="fullname"required></br>
                 <label for="email">email</label>
-                <input type="text" id="email"name="email"required></br>
-                <label for ="password">password</label>
-                <input type="password" id="password"name="password"required></br>
-                
+                <input  type="email"id="email"name="email"required></br>
+                <label for="password">password</label>
+                <input type="password"id="password" name="password"required></b>
+                <p>gender</p>
+                <label for="female">female</label>
+                <input type="radio" id="female"name="female"required></br>
+                <label for="male">male</label>
+                <input type="radio" id="male"name="male"required></br>
+                <p>select nationality</p></br>
+                <label for="kenyan">kenyan</label>
+                <input type="radio" id="kenyan"name="kenyan"value="kenyan">
+                <label for="USA">USA</label>
+                <input type="radio" id="USA"name="USA"value="USA">
+                <label for="Tanzania">Tanzania</label>
+                <input type="radio" id="Tanzania"name="Tanzania"value="Tanzania">
+                <label for="uganda">uganda</label>
+                <input type="radio" id="uganda"name="uganda"value="uganda">
+                <label for="UK">UK</label>
+                <input type="radio" id="UK"name="UK"value="UK"></br>
+                <button type="submit">submit</button></br>
+
+
             </form>
+        </body>
+    </head>
+</html>
